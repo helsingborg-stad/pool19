@@ -2,10 +2,11 @@ import React from 'react';
 
 const List = () => (
   <div id="list">
-    <div>
-      💪
+    <div className="u-text-center">
       <h2>Here are all the companies that need support</h2>
-      <p>Higher ranking on the list means the more critical the need for support is.</p>
+      <p className="large">
+        Higher ranking on the list means the more critical the need for support is.
+      </p>
     </div>
   </div>
 );

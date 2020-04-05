@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Footer = () => (
-  <div>
+  <div className="u-text-center">
     <a href="mailto:hello@pool19.se">
       <h2>hello@pool19.se</h2>
     </a>
-    <ul>
+    <ul className="unlist">
       <li>
         <a href="#legal">Legal stuff</a>
       </li>

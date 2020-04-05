@@ -4,6 +4,7 @@ import './index.css';
 import smoothscroll from 'smoothscroll-polyfill';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'typeface-ibm-plex-sans';
 
 smoothscroll.polyfill();
 ReactDOM.render(
