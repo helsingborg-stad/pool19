@@ -37,8 +37,9 @@ const getSheets = (auth) => new Promise((resolve, reject) => {
           OrgNr: row[3],
           Email: row[4],
           Locality: row[5],
-          DateSubmitted: row[6],
-          Token: row[7]
+          BusinessName: row[6],
+          DateSubmitted: row[7],
+          Token: row[8]
         }
 
         result.push(formObj);
