@@ -39,6 +39,9 @@ b,
 .u-text-center {
   text-align: center;
 }
+.u-text-right {
+  text-align: right;
+}
 
 .u-text-white {
   color: white;
@@ -47,4 +50,10 @@ b,
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.content-container {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
 }
