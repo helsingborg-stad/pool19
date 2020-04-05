@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div className="u-text-center">
+  <div className="section section--about u-text-center">
     <div>
       <h2>About Pool19</h2>
       <p className="large">

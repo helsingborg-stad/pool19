@@ -1,7 +1,7 @@
 import React from 'react';
 
 const List = () => (
-  <div id="list">
+  <div className="section section--list" id="list">
     <div className="u-text-center">
       <h2>Here are all the companies that need support</h2>
       <p className="large">

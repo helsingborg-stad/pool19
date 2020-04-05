@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Disclaimer = () => (
-  <div>
+  <div className="section section--disclaimer">
     <div className="u-text-center">
       <h2>Disclaimer</h2>
       <p className="large">

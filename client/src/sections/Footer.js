@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <div className="u-text-center">
+  <div className="section section--footer u-text-center">
     <a href="mailto:hello@pool19.se">
       <h2>hello@pool19.se</h2>
     </a>
