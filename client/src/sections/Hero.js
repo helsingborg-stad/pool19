@@ -19,10 +19,10 @@ const Hero = () => (
       </p>
       <ul className="unlist">
         <li>
-          <a href="#ineedsupport">I need support 🙏🏻</a>
+          <a className="btn btn--green" href="#ineedsupport">I need support 🙏🏻</a>
         </li>
         <li>
-          <a href="#iwanttosupport">i want to support 💛</a>
+          <a className="btn btn--blue" href="#iwanttosupport">i want to support 💛</a>
         </li>
       </ul>
     </div>

@@ -20,7 +20,7 @@ const About = () => (
         <span className="u-bold">Step 3</span> – Wait for supporters to contact you by email
       </p>
       <a
-        className="typeform-share button"
+        className="typeform-share button btn btn--green"
         href="https://mariasjodin.typeform.com/to/ObNXYj"
         data-mode="popup"
         target="_blank"
@@ -39,7 +39,7 @@ const About = () => (
         support” <br />
         <span className="u-bold">Step 3</span> – Agree on how you can support the company
       </p>
-      <a href="#list">Find a company 💛</a>
+      <a href="#list" className=" btn btn--blue">Find a company 💛</a>
     </div>
   </div>
 );

@@ -25,16 +25,16 @@ const ListItem = props => {
         <Grid justify="space-between" container>
           <Grid item xs={12} md>
               <div className="list-item__heading">
-                <h3>{name}</h3>
+                <h3 className="u-weight-500">{name}</h3>
               </div>
               <div className="list-item__content">
-                <span>{need}</span>
+                <i className="u-weight-500">{need}</i>
               </div>
               <div className="list-item__meta">
-                <span>{`${orgNumber}, ${city}`}</span>
+                <span className="u-text-gray u-weight-500">{`${orgNumber}, ${city}`}</span>
               </div>
           </Grid>
-          <Grid item xs={12} md className="u-text-right"><a href={`mailto: ${email}`}>Give support ❤️</a></Grid>
+          <Grid item xs={12} md className="u-text-right"><a className="btn btn--outline btn--red" href={`mailto: ${email}`}>Give support ❤️</a></Grid>
         </Grid>
   );
 };
@@ -51,7 +51,7 @@ const List = () => {
   return (
     <div className="section section--list" id="list">
       <div className="content-container">
-        <div className="u-text-center">
+        <div className="u-text-center u-mb-1">
           <h2>Here are all the companies that need support</h2>
           <p className="large">
             Higher ranking on the list means the more critical the need for support is.
