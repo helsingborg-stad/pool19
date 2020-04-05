@@ -59,3 +59,13 @@ b,
   width: 100%;
   margin: auto;
 }
+
+.content-container + .content-container {
+  margin-top: 40px;
+}
+
+.section.section--list,
+.section.section--footer,
+.section.section--disclaimer {
+  padding-top: 0;
+}

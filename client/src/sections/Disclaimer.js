@@ -7,7 +7,7 @@ const Disclaimer = () => (
       <p className="large">
         Pool19.se is a non-profit initiativ created during ‘Hack the crisis’ Sweden. This is our way
         of trying to help our local community. Please support the local businesses so that they can
-        survive this crisis. #supportyourlocals #pool19
+        survive this crisis. <br/>#supportyourlocals #pool19
       </p>
     </div>
   </div>
