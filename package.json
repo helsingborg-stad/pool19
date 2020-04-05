@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Boilerplate repository for nodejs based LABS projects.",
   "main": "",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start-old": "NODE_ENV=production node src/server.js",
     "watch-server": "nodemon server/index.js",
@@ -14,7 +17,7 @@
     "migrate:latest": "./node_modules/.bin/knex --cwd src/db/ migrate:latest",
     "migrate:rollback": "./node_modules/.bin/knex --cwd src/db/ migrate:rollback",
     "setup": "node setup.js",
-    "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn build"
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "author": "Helsingborg Stad",
   "license": "MIT",
