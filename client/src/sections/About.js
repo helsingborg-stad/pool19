@@ -11,7 +11,7 @@ const About = () => (
       </p>
     </div>
     <div className="content-container u-text-center" id="ineedsupport">
-      🙏🏻
+      <div className="emoji">🙏🏻</div>
       <h2>I need support</h2>
       <p className="large">
         <span className="u-bold">Step 1</span> – Register your business here and your need <br />
@@ -30,7 +30,7 @@ const About = () => (
       </a>
     </div>
     <div className="content-container u-text-center" id="iwanttosupport">
-      💛
+      <div className="emoji">💛</div>
       <h2>I want to support</h2>
       <p className="large">
         <span className="u-bold">Step 1</span> – Find a business on the list you want to support
