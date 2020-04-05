@@ -1,10 +1,11 @@
 .section.section--hero {
   height: 100vh;
-  max-height: 85vh;
+  max-height: 68vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  background-size: cover;
 }
 
 .section.section--hero:before {
@@ -16,6 +17,7 @@
   height: 100%;
   width: 100%;
   z-index: 0;
+  opacity: 0.5;
 }
 
 .hero-content {
