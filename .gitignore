@@ -14,4 +14,4 @@ node_modules/
 # Ignore istanbul output
 /.nyc_output
 
-!.yarn.lock
+yarn.lock
