@@ -34,7 +34,9 @@ const ListItem = props => {
                 <span className="u-text-gray u-weight-500">{`${orgNumber}, ${city}`}</span>
               </div>
           </Grid>
-          <Grid item xs={12} md className="u-text-right"><a className="btn btn--outline btn--red" href={`mailto: ${email}`}>Give support ❤️</a></Grid>
+          <Grid item xs={12} md className="u-text-right">
+            <a className="btn btn--outline btn--red" href={`mailto: ${email}?subject=I found your company at pool19`}>Give support ❤️</a>
+          </Grid>
         </Grid>
   );
 };
