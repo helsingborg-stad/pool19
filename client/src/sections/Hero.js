@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import COVER_JPG from '../assets/images/cover.jpeg';
+import Grid from '@material-ui/core/Grid';
 
 const divStyle = {
   backgroundImage: `url(${COVER_JPG})`,
@@ -17,14 +18,22 @@ const Hero = () => (
         If you’re running a small business and need support during this corona crisis, get listed
         here so that others can support your.
       </p>
-      <ul className="unlist">
-        <li>
+      <Grid container justify={'center'}  spacing={2}>
+        <Grid item>
           <a className="btn btn--green" href="#ineedsupport">I need support 🙏🏻</a>
+        </Grid>
+        <Grid item>
+          <a className="btn btn--blue" href="#iwanttosupport">i want to support 💛</a>
+        </Grid>
+      </Grid>
+      {/* <ul className="unlist">
+        <li>
+          
         </li>
         <li>
-          <a className="btn btn--blue" href="#iwanttosupport">i want to support 💛</a>
+          
         </li>
-      </ul>
+      </ul> */}
     </div>
   </div>
 );
