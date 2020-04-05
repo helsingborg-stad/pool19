@@ -2,7 +2,7 @@ import React from 'react';
 
 const Disclaimer = () => (
   <div className="section section--disclaimer">
-    <div className="u-text-center">
+    <div className="content-container u-text-center">
       <h2>Disclaimer</h2>
       <p className="large">
         Pool19.se is a non-profit initiativ created during ‘Hack the crisis’ Sweden. This is our way

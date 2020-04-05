@@ -1,8 +1,8 @@
 import React from 'react';
 
 const About = () => (
-  <div className="section section--about u-text-center">
-    <div>
+  <div className="section section--about">
+    <div className="content-container u-text-center">
       <h2>About Pool19</h2>
       <p className="large">
         Right now, there are strange times in our society because of the covid-19 pandemic. This has
@@ -10,7 +10,7 @@ const About = () => (
         companies to get through this time.
       </p>
     </div>
-    <div id="ineedsupport">
+    <div className="content-container u-text-center" id="ineedsupport">
       🙏🏻
       <h2>I need support</h2>
       <p className="large">
@@ -29,7 +29,7 @@ const About = () => (
         Register for support 🙏🏻
       </a>
     </div>
-    <div id="iwanttosupport">
+    <div className="content-container u-text-center" id="iwanttosupport">
       💛
       <h2>I want to support</h2>
       <p className="large">
