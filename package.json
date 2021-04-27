@@ -55,7 +55,7 @@
     "node-fetch": "^2.4.1",
     "nodemon": "^1.19.00",
     "pino": "^5.12.5",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "soap": "^0.27.1",
     "swagger-ui-express": "^4.0.2",
     "ws": "^7.0.0"
